@@ -209,3 +209,30 @@ gcam32_colors <- c(
     'Southeast Asia' = rgb255(240, 128, 128),
     'Taiwan' = rgb255(150, 150, 150)
 )
+
+#' Color palette for MIT's EPPA model
+#'
+#' This palette should be used for plots by region (whether maps, line plots, or
+#' other types) to ensure consistency across plots and publications.
+#' @export
+eppa_colors <- c(
+    'AFR' = rgb255(255,185,15),
+    'ASI' = rgb255(240, 128, 128),
+    'Australia_NZ' = rgb255(255,193,193),
+    'Brazil' = rgb255(154,205,50),
+    'Canada' = rgb255(224,238,224),
+    'China' = rgb255(255,0,0),
+    'EUR' = rgb255(25,25,112),
+    'IDZ' = rgb255(139, 28, 98),
+    'India' = rgb255(208,32,144),
+    'Japan' = hsv(0.01, 0.75, 0.65),
+    'KOR' = rgb255(205, 92, 92),
+    'LAM' = rgb255(72,209,204),
+    'MES' = rgb255(46,139,87),
+    'Mexico' = rgb255(50,205,50),
+    'REA' = rgb255(188,143,143),
+    'ROE' = rgb255(139,0,0),
+    'Russia' = rgb255(104,34,139),
+    'USA' = rgb255(77,77,77)
+)
+
